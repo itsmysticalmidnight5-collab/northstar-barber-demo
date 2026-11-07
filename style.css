@@ -1,0 +1,351 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    margin: 0;
+}
+
+header {
+    background-color: #172033;
+    padding: 20px 30px;
+}
+
+nav {
+    color: #cbd5e1;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+nav a:hover {
+    color: #d4a44e;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}footer {
+    background-color: #172033;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+main > a,
+main > p > a {
+    display: inline-block;
+    background-color: #d4a44e;
+    color: #172033;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 10px 8px 0;
+}
+
+main > a:hover,
+main > p > a:hover {
+    background-color: #e9bc6c;
+}main h1 {
+    font-size: 42px;
+    letter-spacing: -1px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 16px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    main {
+        padding: 24px 16px;
+    }
+
+    main h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}.service-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.service-list li {
+    background-color: #f5f5f5;
+    padding: 22px;
+    border-left: 4px solid #d4a44e;
+    border-radius: 8px;
+    font-weight: bold;
+}main > img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}html {
+    scroll-behavior: smooth;
+}
+
+.service-list li {
+    transition: transform 0.2s ease;
+}
+
+.service-list li:hover {
+    transform: translateY(-4px);
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #101827, #25324a);
+    color: white;
+    padding: 80px 50px;
+    border-radius: 18px;
+    border: 1px solid #d4a44e;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.16);
+}
+
+.hero h1 {
+    color: white;
+    font-size: clamp(32px, 4vw, 54px);
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    color: #e6cfaa;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero > a {
+    display: inline-block;
+    background: #d4a44e;
+    color: #172033;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 22px;
+    margin: 0 10px 10px 0;
+    border-radius: 8px;
+}
+
+.hero > a:hover {
+    background: #f0c473;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 45px 24px;
+    }
+}
+
+
+
+.service-list h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #172033;
+}
+
+.service-list p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #555555;
+}
+
+
+
+.booking-intro {
+    font-size: 20px;
+    color: #4b5563;
+    margin-bottom: 25px;
+}
+
+.booking-notice {
+    background: #172033;
+    color: white;
+    padding: 30px;
+    border-left: 5px solid #d4a44e;
+    border-radius: 10px;
+}
+
+.booking-notice h3 {
+    color: #f0c473;
+    font-size: 24px;
+    margin: 0 0 12px;
+}
+
+.booking-notice p {
+    color: #f1f3f7;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+
+.brand {
+    
+display: block;
+text-decoration: none;
+
+    color: #d4a44e;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.brand span {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-left: 8px;
+}
+
+
+
+a:focus-visible {
+    outline: 3px solid #d4a44e;
+    outline-offset: 4px;
+    border-radius: 6px;
+}
+
+
+
+/* BLACK & GOLD LUXURY THEME */
+
+body {
+    background-color: #0d0d0f;
+    color: #f4f1ea;
+}
+
+header,
+footer {
+    background-color: #09090b;
+}
+
+main > section {
+    background-color: #191a1f;
+    border: 1px solid #443923;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+main > section h2 {
+    color: #d4a44e;
+}
+
+main > section p {
+    color: #e8e3d9;
+}
+
+.service-list li {
+    background-color: #25262b;
+    color: #ffffff;
+}
+
+.service-list h3 {
+    color: #f2c979;
+}
+
+.service-list p {
+    color: #d8d4cd;
+}
+
+.hero {
+    background: linear-gradient(135deg, #08080a, #202126);
+    border: 1px solid #d4a44e;
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.hero p {
+    color: #f0c473;
+}
+
+.booking-intro {
+    color: #e2dbcf;
+}
+
+.booking-notice {
+    background-color: #0b0b0d;
+}
+
+.booking-notice h3 {
+    color: #f0c473;
+}
+
+.booking-notice p {
+    color: #ededed;
+}
+
+
+
+/* PREMIUM FAQ DESIGN */
+
+#faq details {
+    background-color: #25262b;
+    border: 1px solid #443923;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-top: 12px;
+}
+
+#faq summary {
+    color: #f2c979;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+#faq details p {
+    color: #e8e3d9;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 14px 0 0;
+}
+
+#faq details[open] {
+    border-color: #d4a44e;
+}
+
+#faq summary:focus-visible {
+    outline: 2px solid #d4a44e;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
